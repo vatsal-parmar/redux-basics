@@ -1,0 +1,9 @@
+Redux Store
+One store for the entire app
+
+Responsibilities:
+Holds app state
+Allows access to state via getState()
+Allows state to be updated via dispatch(action)
+Registers listners via subscribe(listner) //function as a param wich runs on state change
+Handles unregistering of listners via the function returned by subscribe(listner)

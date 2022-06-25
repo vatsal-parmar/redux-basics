@@ -1,0 +1,6 @@
+Redux is a predictable state container for JavaScript Apps.
+Can be used with React, Angular, Vue or even vanilla JavaScript.
+
+
+useContext + useReducer ?
+Redux 1.0 - August 2015. this react apis was not available.

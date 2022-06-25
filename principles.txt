@@ -1,0 +1,30 @@
+First:
+The state of your whole app is stored in an object tree within a single store.
+which will be managed by the Redux store.
+
+{
+  numberOfCakes : 10
+}
+
+Second:
+The only way to change the state is to emit an action,an object describes what happened.
+
+{
+  type: BUY_CAKE
+}
+
+Third:
+To specify how the state tree is transformed by action, you write pure reducers.
+Reducer - (prevState,action)=>newState
+
+Cake Shop:
+
+Shopkeeper is the reducer.
+
+const reducer = (state,action) =>{
+  switch(action.type){
+    case BUY_CAKE: return {
+      numberOfCakes: state.numberOfCakes - 1
+    }
+  }
+}

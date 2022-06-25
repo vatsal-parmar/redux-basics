@@ -1,0 +1,6 @@
+Actions:
+
+The only way your app can interact with store.
+Carry some info from your app to the redux store.
+Plain JavaScript objects.
+Have a type property that indicates the type of the action

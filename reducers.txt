@@ -1,0 +1,3 @@
+Reducer:
+Specify how the app's state changes in response to action sent to the store.
+Reducer - (prevState,action)=>newState

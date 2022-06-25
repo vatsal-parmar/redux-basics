@@ -1,0 +1,13 @@
+        cake shop
+
+Entities                                                Activities
+
+Shop - stores cakes on shelf                      Customer - Buy a cake
+Shopkeeper - at the front of the store            Shopkeeper - Remove a cake from the shelf
+Customer - at the store entrance                             - Recipt to keep track
+
+
+cake shop                     Redux                       Purpose
+Shop                          Store                       Holds the state of your app.
+Buy cake                      Action                      Describes what happened
+Shopkeeper                    Reducer                     Ties the store and action together
