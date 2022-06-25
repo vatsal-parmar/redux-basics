@@ -1,4 +1,4 @@
-const redux = require('redux');
+import redux from 'redux';
 
 const createStore = redux.createStore;
 const combineReducers = redux.combineReducers;
